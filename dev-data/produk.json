@@ -1,0 +1,202 @@
+[
+    {
+        "nama_produk":"ac adapter",
+        "kd_produk":null,
+        "kd_satuan":2,
+        "price":null,
+        "unassigned":0,
+        "rak":null,
+        "total_produk":0,
+        "poto_produk":null
+    },
+    {
+        "nama_produk":"ac adapter 10.5 v",
+        "kd_produk":null,
+        "kd_satuan":1,
+        "price":null,
+        "unassigned":10,
+        "rak":null,
+        "total_produk":10,
+        "poto_produk":null
+    },
+    {
+        "nama_produk":"ac adapter 12 v",
+        "kd_produk":null,
+        "kd_satuan":1,
+        "price":null,
+        "unassigned":8,
+        "rak":null,
+        "total_produk":8,
+        "poto_produk":null
+    },
+    {
+        "nama_produk":"ac adapter 12.6 v",
+        "kd_produk":null,
+        "kd_satuan":1,
+        "price":null,
+        "unassigned":4,
+        "rak":null,
+        "total_produk":4,
+        "poto_produk":null
+    },
+    {
+        "nama_produk":"ac adapter 13.5 v",
+        "kd_produk":null,
+        "kd_satuan":1,
+        "price":null,
+        "unassigned":1,
+        "rak":null,
+        "total_produk":1,
+        "poto_produk":null
+    },
+    {
+        "nama_produk":"ac adapter 14 v",
+        "kd_produk":null,
+        "kd_satuan":1,
+        "price":null,
+        "unassigned":3,
+        "rak":null,
+        "total_produk":3,
+        "poto_produk":null
+    },
+    {
+        "nama_produk":"ac adapter 15 v",
+        "kd_produk":null,
+        "kd_satuan":1,
+        "price":null,
+        "unassigned":3,
+        "rak":null,
+        "total_produk":3,
+        "poto_produk":null
+    },
+    {
+        "nama_produk":"ac adapter 16 v",
+        "kd_produk":null,
+        "kd_satuan":1,
+        "price":null,
+        "unassigned":3,
+        "rak":null,
+        "total_produk":3,
+        "poto_produk":null
+    },
+    {
+        "nama_produk":"ac adapter 19.5 v",
+        "kd_produk":null,
+        "kd_satuan":1,
+        "price":null,
+        "unassigned":4,
+        "rak":null,
+        "total_produk":4,
+        "poto_produk":null
+    },
+    {
+        "nama_produk":"ac adapter 29.4 v",
+        "kd_produk":null,
+        "kd_satuan":1,
+        "price":null,
+        "unassigned":1,
+        "rak":null,
+        "total_produk":1,
+        "poto_produk":null
+    },
+    {
+        "nama_produk":"ac adapter 9 v",
+        "kd_produk":null,
+        "kd_satuan":1,
+        "price":null,
+        "unassigned":9,
+        "rak":null,
+        "total_produk":9,
+        "poto_produk":null
+    },
+    {
+        "nama_produk":"ac adapter hushin h5",
+        "kd_produk":3,
+        "kd_satuan":2,
+        "price":null,
+        "unassigned":0,
+        "rak":null,
+        "total_produk":0,
+        "poto_produk":null
+    },
+    {
+        "nama_produk":"ac adapter jdsu 19 v",
+        "kd_produk":null,
+        "kd_satuan":1,
+        "price":null,
+        "unassigned":2,
+        "rak":null,
+        "total_produk":2,
+        "poto_produk":null
+    },
+    {
+        "nama_produk":"adapter e2000 to sc/upc",
+        "kd_produk":null,
+        "kd_satuan":1,
+        "price":null,
+        "unassigned":5,
+        "rak":null,
+        "total_produk":5,
+        "poto_produk":null
+    },
+    {
+        "nama_produk":"adapter fc/upc to fc/upc",
+        "kd_produk":null,
+        "kd_satuan":1,
+        "price":null,
+        "unassigned":270,
+        "rak":null,
+        "total_produk":270,
+        "poto_produk":null
+    },
+    {
+        "nama_produk":"adapter fc/upc to sc/upc",
+        "kd_produk":null,
+        "kd_satuan":1,
+        "price":null,
+        "unassigned":8,
+        "rak":null,
+        "total_produk":8,
+        "poto_produk":null
+    },
+    {
+        "nama_produk":"adapter lc duplex",
+        "kd_produk":null,
+        "kd_satuan":1,
+        "price":null,
+        "unassigned":13,
+        "rak":null,
+        "total_produk":13,
+        "poto_produk":null
+    },
+    {
+        "nama_produk":"adapter lc-fc/upc",
+        "kd_produk":null,
+        "kd_satuan":1,
+        "price":null,
+        "unassigned":5,
+        "rak":null,
+        "total_produk":5,
+        "poto_produk":null
+    },
+    {
+        "nama_produk":"adapter lc-sc/upc",
+        "kd_produk":null,
+        "kd_satuan":1,
+        "price":null,
+        "unassigned":7,
+        "rak":null,
+        "total_produk":7,
+        "poto_produk":null
+    },
+    {
+        "nama_produk":"adapter st-sc/upc",
+        "kd_produk":null,
+        "kd_satuan":1,
+        "price":null,
+        "unassigned":26,
+        "rak":null,
+        "total_produk":26,
+        "poto_produk":null
+    }
+]
