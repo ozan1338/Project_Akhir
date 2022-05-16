@@ -1,7 +1,8 @@
 const {user} = require('../models')
 const AppErrors = require('../utils/AppErrors')
+let controller = {}
 
-const registerUser = async(req,res,next) => {
+controller.registerUser = async(req,res,next) => {
     try {
         const {username,email,password} = req.body
         //let doesExist = []
@@ -49,6 +50,36 @@ const registerUser = async(req,res,next) => {
     }
 }
 
-module.exports = {
-    registerUser
+controller.loginUser = async(req,res,next) => {
+    try {
+        const {email,password} = req.body
+
+        const doesExist = await user.findOne({
+            where: {
+                email
+            },
+            raw: true
+        })
+
+        if(!doesExist) {
+            return next(new AppErrors('User Tidak Ditemukan',404))
+        }
+
+        if(password !== doesExist.password) {
+            return next(new AppErrors('Password Salah',412))
+        }
+
+        res.status(200).json({
+            status:"success",
+            data:{
+                username:doesExist.username,
+                email:doesExist.email,
+                id:doesExist.id
+            }
+        })
+    } catch (err) {
+        next(err)
+    }
 }
+
+module.exports = controller

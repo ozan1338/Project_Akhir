@@ -1,4 +1,4 @@
-const {produk} = require('../models')
+const {produk,kode_produk,kode_satuan} = require('../models')
 const {query,QueryTypes} = require('sequelize')
 const rawQuery = require('../models/rawQuery/raw_query')
 const controller = {}
@@ -61,6 +61,68 @@ controller.getOneProduk = async(req,res,next) => {
     }
 }
 
+controller.getAllKdProduk = async(req,res,next) => {
+    try {
+        const data = await kode_produk.findAll()
+        res.status(200).json({
+            status:"success",
+            data
+        })
+    } catch (err) {
+        next(err)
+    }
+}
 
+controller.getAllKdSatuan = async(req,res,next) => {
+    try {
+        const data = await kode_satuan.findAll()
+        res.status(200).json({
+            status:"success",
+            data
+        })
+    } catch (err) {
+        next(err)
+    }
+}
+
+controller.updateProduk = async(req,res,next) => {
+    try {
+        const produk_id = req.params.produk_id
+
+        const {...newData} = req.body
+
+        console.log(newData)
+
+        if(!req.file){
+            await produk.update({...newData},{
+                where: {
+                    id: produk_id
+                }
+            })
+        }else {
+            await produk.update({
+                ...newData,
+                poto_produk: req.file.filename
+            },{
+                where: {
+                    id: produk_id
+                }
+            })
+        }
+
+        const getListProduk = rawQuery.getOneProduk(produk_id)
+
+        const [updatedData] = await db.query(getListProduk,{
+            type: QueryTypes.SELECT
+        })
+
+        res.status(200).json({
+            status:"success",
+            data: updatedData
+        })
+    } catch (err) {
+        next(err)
+    }
+}
 
 module.exports = controller
