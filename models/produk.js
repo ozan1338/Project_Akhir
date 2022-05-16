@@ -31,7 +31,8 @@ module.exports = (sequelize, DataTypes) => {
     price: DataTypes.INTEGER,
     total_produk: DataTypes.INTEGER,
     unassigned: DataTypes.INTEGER,
-    rak: DataTypes.STRING
+    rak: DataTypes.STRING,
+    poto_produk: DataTypes.STRING
   }, {
     sequelize,
     modelName: 'produk',

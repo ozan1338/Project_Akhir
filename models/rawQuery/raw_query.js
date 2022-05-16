@@ -1,7 +1,7 @@
 const query = {}
 
 query.getListProduk = (nama_produk) => {
-    return `select pd.nama_produk,kp.kd_produk,pd.total_produk,pd.unassigned,pd.rak,ks.kd_satuan
+    return `select pd.nama_produk,kp.kd_produk,pd.total_produk,pd.unassigned,pd.rak,ks.kd_satuan,pd.poto_produk
     from public.produks pd
     left join public.kode_produks kp
     on pd.kd_produk = kp.id
@@ -24,7 +24,7 @@ query.countAllProduk = (nama_produk) => {
 }
 
 query.getOneProduk = (id_produk) => {
-    return `select pd.nama_produk,kp.kd_produk,pd.total_produk,pd.unassigned,pd.rak,ks.kd_satuan
+    return `select pd.nama_produk,kp.kd_produk,pd.total_produk,pd.unassigned,pd.rak,ks.kd_satuan,pd.poto_produk
     from public.produks pd
     left join public.kode_produks kp
     on pd.kd_produk = kp.id

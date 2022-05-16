@@ -91,18 +91,25 @@ controller.updateProduk = async(req,res,next) => {
 
         const {...newData} = req.body
 
-        console.log(newData)
-
+        //console.log(newData)
+        
+        //console.log(req.file)
+        
         if(!req.file){
+            console.log("OMG")
             await produk.update({...newData},{
                 where: {
                     id: produk_id
                 }
             })
         }else {
+            const imageSrc = 'http://localhost:3001/images/'+req.file.filename
+            //console.log(imageSrc)
+            //newData.poto_produk = imageSrc
+            //console.log(newData)
             await produk.update({
                 ...newData,
-                poto_produk: req.file.filename
+                poto_produk: imageSrc
             },{
                 where: {
                     id: produk_id
