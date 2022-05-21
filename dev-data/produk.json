@@ -198,5 +198,175 @@
         "rak":null,
         "total_produk":26,
         "poto_produk":null
+    },
+    {
+        "nama_produk":"apl-2 mainboard SN:5600100022107",
+        "kd_produk":null,
+        "kd_satuan":2,
+        "price":null,
+        "unassigned":1,
+        "rak":null,
+        "total_produk":1,
+        "poto_produk":null
+    },
+    {
+        "nama_produk":"apm 58mc-vv20",
+        "kd_produk":null,
+        "kd_satuan":1,
+        "price":null,
+        "unassigned":10,
+        "rak":null,
+        "total_produk":10,
+        "poto_produk":null
+    },
+    {
+        "nama_produk":"bare fiber adapter tns-125f",
+        "kd_produk":null,
+        "kd_satuan":2,
+        "price":null,
+        "unassigned":6,
+        "rak":null,
+        "total_produk":6,
+        "poto_produk":null
+    },
+    {
+        "nama_produk":"battery fujikura btr 09",
+        "kd_produk":null,
+        "kd_satuan":1,
+        "price":null,
+        "unassigned":3,
+        "rak":null,
+        "total_produk":3,
+        "poto_produk":null
+    },
+    {
+        "nama_produk":"battery 200 h skycom",
+        "kd_produk":null,
+        "kd_satuan":1,
+        "price":null,
+        "unassigned":1,
+        "rak":null,
+        "total_produk":1,
+        "poto_produk":null
+    },
+    {
+        "nama_produk":"battery 7260",
+        "kd_produk":null,
+        "kd_satuan":1,
+        "price":null,
+        "unassigned":4,
+        "rak":null,
+        "total_produk":4,
+        "poto_produk":null
+    },
+    {
+        "nama_produk":"battery 7280",
+        "kd_produk":null,
+        "kd_satuan":1,
+        "price":null,
+        "unassigned":1,
+        "rak":null,
+        "total_produk":1,
+        "poto_produk":null
+    },
+    {
+        "nama_produk":"battery 9083",
+        "kd_produk":null,
+        "kd_satuan":1,
+        "price":null,
+        "unassigned":1,
+        "rak":null,
+        "total_produk":1,
+        "poto_produk":null
+    },
+    {
+        "nama_produk":"battery budhi lim",
+        "kd_produk":null,
+        "kd_satuan":1,
+        "price":null,
+        "unassigned":26,
+        "rak":null,
+        "total_produk":26,
+        "poto_produk":null
+    },
+    {
+        "nama_produk":"battery charger s-95bc fitel",
+        "kd_produk":null,
+        "kd_satuan":1,
+        "price":null,
+        "unassigned":3,
+        "rak":null,
+        "total_produk":3,
+        "poto_produk":null
+    },
+    {
+        "nama_produk":"battery dsam 6300",
+        "kd_produk":null,
+        "kd_satuan":2,
+        "price":null,
+        "unassigned":3,
+        "rak":null,
+        "total_produk":3,
+        "poto_produk":null
+    },
+    {
+        "nama_produk":"battery dsam un-3490",
+        "kd_produk":null,
+        "kd_satuan":1,
+        "price":null,
+        "unassigned":2,
+        "rak":null,
+        "total_produk":2,
+        "poto_produk":null
+    },
+    {
+        "nama_produk":"battery dvp 730",
+        "kd_produk":null,
+        "kd_satuan":1,
+        "price":null,
+        "unassigned":1,
+        "rak":null,
+        "total_produk":1,
+        "poto_produk":null
+    },
+    {
+        "nama_produk":"battery exfo axs 100",
+        "kd_produk":null,
+        "kd_satuan":1,
+        "price":null,
+        "unassigned":2,
+        "rak":null,
+        "total_produk":2,
+        "poto_produk":null
+    },
+    {
+        "nama_produk":"battery exfo ftb 200",
+        "kd_produk":null,
+        "kd_satuan":1,
+        "price":null,
+        "unassigned":1,
+        "rak":null,
+        "total_produk":1,
+        "poto_produk":null
+    },
+    {
+        "nama_produk":"battery exfo max tester",
+        "kd_produk":null,
+        "kd_satuan":2,
+        "price":null,
+        "unassigned":1,
+        "rak":null,
+        "total_produk":1,
+        "poto_produk":null
+    },
+    {
+        "nama_produk":"battery fiberfox",
+        "kd_produk":null,
+        "kd_satuan":1,
+        "price":null,
+        "unassigned":2,
+        "rak":null,
+        "total_produk":2,
+        "poto_produk":null
     }
 ]
