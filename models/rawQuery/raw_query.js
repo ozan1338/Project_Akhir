@@ -1,7 +1,7 @@
 const query = {}
 
 query.getListProduk = (nama_produk) => {
-    return `select pd.nama_produk,coalesce(kp.kd_produk, 'N/A'),pd.total_produk,pd.unassigned,pd.rak,ks.kd_satuan,pd.poto_produk
+    return `select pd.nama_produk,coalesce(kp.kd_produk, 'N/A') as kd_produk,pd.total_produk,pd.unassigned,pd.rak,ks.kd_satuan,pd.poto_produk
     from public.produks pd
     left join public.kode_produks kp
     on pd.kd_produk = kp.id
