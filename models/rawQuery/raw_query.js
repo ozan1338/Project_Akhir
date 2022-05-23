@@ -34,5 +34,9 @@ query.getOneProduk = (id_produk) => {
     `
 }
 
+query.addJson = (data) => {
+    return `insert into tempjson (json_report,created_at) values('${data.jsonData}','${data.createdAt}') returning *`
+}
+
 
 module.exports = query

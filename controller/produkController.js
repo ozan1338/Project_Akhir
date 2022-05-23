@@ -3,6 +3,7 @@ const {query,QueryTypes} = require('sequelize')
 const rawQuery = require('../models/rawQuery/raw_query')
 const controller = {}
 const db = require('../config/database')
+const anotherDb = require('../config/anotherDb')
 const AppErrors = require('../utils/AppErrors')
 //const sequelize = require('sequelize')
 
@@ -128,6 +129,35 @@ controller.updateProduk = async(req,res,next) => {
             data: updatedData
         })
     } catch (err) {
+        next(err)
+    }
+}
+
+controller.AddPorduk = async (req,res,next) => {
+    try {
+        //console.log(req.body)
+        const data = {
+            jsonData: JSON.stringify(req.body),
+            createdAt: new Date().toISOString().slice(0, 10)
+        }
+
+        // const insertData = await produk.create({
+        //     nama_produk: data
+        // })
+
+        const query = rawQuery.addJson(data)
+
+        console.log('\x1b[33m%s\x1b[0m',query)
+
+        const [insertData] = await anotherDb.query(query, {
+            type: QueryTypes.INSERT
+        })
+
+        res.status(201).json({
+            status:"succes",
+            data:insertData[0]
+        })
+    }catch (err){
         next(err)
     }
 }
